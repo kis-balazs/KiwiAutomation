@@ -18,7 +18,6 @@ Want to create:
  - use more complex analytical - mathematical systems to predict best periods of the year
  - automatic booking system after given credentials, with steps until checkout
  
-##Changes will be updated periodically.
+## Changes will be updated periodically.
 
-##This is a personal, open project for anyone who would like to continue, give ideas, etc., you are welcome to do it,
-##feel free to star it, fork it, etc. Better solutions are welcomed as well, or even alternate solutions.
+## This is a personal, open project for anyone who would like to continue, give ideas, etc., you are welcome to do it, feel free to star it, fork it, etc. Better solutions are welcomed as well, or even alternate solutions.
