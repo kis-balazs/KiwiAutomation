@@ -8,7 +8,7 @@ Created:
  - options to add dates of flight - return
  - filtering flights after some pre-given parameters - it will sort the flights after these parameters, 
    modifiable by code (shortest summed flight time, checked baggage price)
- - automatical link access of the booking
+ - automatic link access of the booking
 
 Want to create:
  - different types of flights (one-way, multiple stops, etc.)
