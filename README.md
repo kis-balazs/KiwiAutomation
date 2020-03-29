@@ -14,7 +14,7 @@ Want to create:
  - different types of flights (one-way, multiple stops, etc.)
  - add more filters
  - option to give a bigger time interval and multiple options (filters, number of days at the destination, preferences),
-   and the system to fing the ideal flights according to these parameters
+   and the system to find the ideal flights according to these parameters
  - use more complex analytical - mathematical systems to predict best periods of the year
  - automatic booking system after given credentials, with steps until checkout
  
