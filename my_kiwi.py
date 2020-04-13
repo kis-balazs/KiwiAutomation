@@ -70,7 +70,8 @@ def fly_from_to(src=None, dst=None, dates=None, filters=None):
                         myModule = getattr(thismodule, filters[i][0])
                         json_html(json.loads(res), fn,
                                   index=[myModule(json.loads(res), filters[i][1])],
-                                  subtitle=filters[i][0] + " >> from " + src[s] + ", to " + dst[d] + " between: " + dates[0] + " <-> " + dates[1])
+                                  subtitle=filters[i][0] + " >> from " + src[s] + ", to " + dst[d] +
+                                  " between: " + dates[0] + " <-> " + dates[1])
                 else:
                     json_html(json.loads(res), fn)
         # successful finishing note
