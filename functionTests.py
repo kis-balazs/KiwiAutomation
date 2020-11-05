@@ -33,6 +33,8 @@ s = kiwi.Search()
 # ################################################################################################################
 # ################################################################################################################
 # sample for multFromMultTo -- function
-fly_from_to(src=['CLJ'], dst=['VIE', 'IST'], dates=['18/01/2020', '21/01/2020'],
-            filters=[['price_bag_index_added', 2],
-                     ['fly_duration', 0]])
+# fly_from_to(src=['CLJ'], dst=['LHR'], dates=['11/11/2020', '21/11/2020'],
+#             filters=[['price_bag_index_added', 2],
+#                      ['fly_duration', 0]])
+fly_from_to(src=['CLJ'], dst=['LHR'], dates=['6/11/2020', '13/11/2020'],
+            filters=[['fly_duration', 0]])

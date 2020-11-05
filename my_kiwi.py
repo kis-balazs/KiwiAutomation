@@ -89,7 +89,10 @@ def json_html(parsed_json, filename, index=None, subtitle=None):
     if index is None:
         index = []
     for i in range(0, len(toDeleteGlobal)):
-        del parsed_json[toDeleteGlobal[i]]
+        try:
+            del parsed_json[toDeleteGlobal[i]]
+        except Exception:
+            pass
     for i in range(0, len(parsed_json['data'])):
         for l in range(0, len(parsed_json['data'][i]['route'])):
             pass
@@ -103,7 +106,11 @@ def json_html(parsed_json, filename, index=None, subtitle=None):
         link = parsed_json['data'][i]['deep_link']
         parsed_json['data'][i]['deep_link'] = "<a href=\"" + link + "\">kiwi.com link</a>"
         for k in range(0, len(toDeleteLocal)):
-            del parsed_json['data'][i][toDeleteLocal[k]]
+            try:
+                del parsed_json['data'][i][toDeleteLocal[k]]
+            except Exception:
+                pass
+
     # apply filters from the index -- FILTERS MIGHT GENERATE MORE ANSWERS
     sub = ""
     if len(index) == 0:

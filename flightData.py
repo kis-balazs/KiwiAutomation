@@ -5,8 +5,8 @@ toDeleteGlobal = ['search_id', 'currency_rate', 'connections', 'time', 'fx_rate'
 toDeleteLocal = ['id', 'dTime', 'aTime', 'dTimeUTC', 'aTimeUTC', 'mapIdfrom', 'mapIdto',
                  'pnr_count', 'found_on', 'booking_token', 'quality', 'type_flights', 'p1', 'p2', 'p3', 'duration',
                  'virtual_interlining', 'transfers', 'technical_stops', 'cityCodeFrom', 'cityCodeTo', 'flyFrom',
-                 'flyTo', 'conversion', 'routes']
-delFromRoute = ['id', 'combination_id', 'return', 'original_return', 'source', 'found_on', 'price', 'fare_classes',
+                 'flyTo', 'routes']
+delFromRoute = ['id', 'combination_id', 'return', 'original_return', 'source', 'found_on', 'fare_classes',
                 'fare_family', 'mapIdto', 'mapIdfrom', 'fare_basis', 'fare_category', 'last_seen',
                 'refresh_timestamp', 'guarantee', 'aTime', 'dTime', 'aTimeUTC', 'dTimeUTC', 'cityCodeFrom',
                 'cityCodeTo', 'operating_carrier', 'equipment', 'latFrom', 'lngFrom', 'latTo', 'lngTo',
@@ -43,7 +43,7 @@ flightData.update({'one_for_city': '0'})
 # returns the cheapest flights for one date.
 flightData.update({'one_per_date': '0'})
 # Used to specify the number of adults.
-flightData.update({'adults': '1'})
+flightData.update({'adults': '1'})  # todo change here for number
 # It is used to specify the number of children.
 flightData.update({'children': ''})
 # It is used to specify number of infants.

@@ -1,0 +1,6 @@
+PyQt5
+json2html
+requests
+pandas
+structlog
+structlog-pretty
